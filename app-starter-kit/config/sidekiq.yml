@@ -1,0 +1,6 @@
+---
+:concurrency: 10
+:queues:
+  - [default, 1]
+  - [mailers, 2]
+  - [tracking_events, 2]
